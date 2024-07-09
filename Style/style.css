@@ -6,22 +6,38 @@
   font-weight: 100;
   font-style: normal;
 }
+.text-center{
+  text-align: center;
+}
+
+
 
 /* intro section styling */
 .my-intro{
   background-image: url(../assets/Hero-bg.png);
-  text-align: center;
+  /* text-align: center; */
 }
 
 
 /* motive section styling */
-.my-motive{
+/* .my-motive{
   text-align: center;
-}
+} */
 
 .layers{
   display: flex;
   justify-content: space-around;
- 
- 
+  gap: 10px;
+}
+
+/* inspiration sec styling */
+.my-inspiration{
+  /* text-align: center; */
+}
+
+
+/* target sec styling */
+.target-contents{
+  display: flex;
+  justify-content: space-around;
 }
