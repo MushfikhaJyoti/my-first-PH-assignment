@@ -15,14 +15,14 @@
 /* intro section styling */
 .my-intro{
   background-image: url(../assets/Hero-bg.png);
-  /* text-align: center; */
+  
 }
 
 
 /* motive section styling */
-/* .my-motive{
-  text-align: center;
-} */
+.my-motive{
+ 
+}
 
 .layers{
   display: flex;
@@ -32,7 +32,7 @@
 
 /* inspiration sec styling */
 .my-inspiration{
-  /* text-align: center; */
+ 
 }
 
 
@@ -40,4 +40,9 @@
 .target-contents{
   display: flex;
   justify-content: space-around;
+}
+
+/* communication sec styling */
+.communication{
+  background-image: url(../assets/handshake.jpg);
 }
