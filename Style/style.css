@@ -9,18 +9,43 @@
 .text-center{
   text-align: center;
 }
+.section-heading{
+  font-weight: bolder;
+  font-size: 32px;
+}
+.anchor-tag{
+  /* text-decoration: none; */
+  font-size: 16px;
+  font-weight: bold;
+  color: #0D1321;
+}
 
 
 
 /* intro section styling */
+.opening-heading{
+  font-size: 48px;
+  font-weight: bolder;
+  line-height: 68px;
+}
 .my-intro{
   background-image: url(../assets/Hero-bg.png);
+  /* margin: 30px 220px; */
+  margin-top: 5px;
+  padding: 30px 220px;
   
+}
+.content{
+  padding: 0px 30px;
 }
 
 
 /* motive section styling */
 .my-motive{
+
+  margin: 85px 150px;
+  padding: 80px 97px;
+
  
 }
 
@@ -28,15 +53,24 @@
   display: flex;
   justify-content: space-around;
   gap: 10px;
+  padding: 45px 45px;
 }
 
 /* inspiration sec styling */
 .my-inspiration{
+  margin: 0px 150px;
  
+}
+.video-part{
+/* border-style: solid;
+  border-radius: 5px; */
 }
 
 
 /* target sec styling */
+.current-target{
+  margin: 85px 150px;
+}
 .target-contents{
   display: flex;
   justify-content: space-around;
@@ -45,4 +79,5 @@
 /* communication sec styling */
 .communication{
   background-image: url(../assets/handshake.jpg);
+  margin: 0px 150px 40px 150px;
 }
