@@ -1,0 +1,27 @@
+/* shared styles */
+
+.azeret-mono {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+/* intro section styling */
+.my-intro{
+  background-image: url(../assets/Hero-bg.png);
+  text-align: center;
+}
+
+
+/* motive section styling */
+.my-motive{
+  text-align: center;
+}
+
+.layers{
+  display: flex;
+  justify-content: space-around;
+ 
+ 
+}
