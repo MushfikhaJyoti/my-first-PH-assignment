@@ -58,13 +58,23 @@
   background-color: #fafafb;
   margin: 85px 150px;
   padding: 80px 97px;
+  border-radius: 16px;
+}
+h5{
+  font-weight: bold;
+  font-size: 24px;
 }
 
 .layers{
+  background-color: #FFFFFF;
+  line-height: 26px;
   display: flex;
   justify-content: space-around;
   gap: 10px;
-  padding: 45px 45px;
+  padding: 20px 100px;
+}
+button{
+  padding: 5px;
 }
 
 /* inspiration sec styling */
