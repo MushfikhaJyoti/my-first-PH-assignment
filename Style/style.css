@@ -38,15 +38,26 @@
 .content{
   padding: 0px 30px;
 }
+#first-button{
+  text-decoration: none;
+}
+.contact-btn{
+  padding: 5px;
+  background-color: #0D1321;
+  font-size: 20px;
+  font-weight: 400px;
+  color: #FFFFFF;
+  border-radius: 5px;
+  
+  
+}
 
 
 /* motive section styling */
 .my-motive{
-
+  background-color: #fafafb;
   margin: 85px 150px;
   padding: 80px 97px;
-
- 
 }
 
 .layers{
@@ -80,4 +91,31 @@
 .communication{
   background-image: url(../assets/handshake.jpg);
   margin: 0px 150px 40px 150px;
+}
+/* footer styling */
+.portfolio-icons{
+  /* height: 5px;
+  max-width: fit-content; */
+  padding: 0px 150px;
+  background-color: azure;
+  display: flex;
+  justify-content: space-between;
+
+}
+ul{
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+}
+ul li{
+  margin-right: 32px;
+}
+.last-footer{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.last-written-content{
+  font-size: 20px;
+  font-weight: 400;
 }
