@@ -1,11 +1,12 @@
 /* shared styles */
 
-.azeret-mono {
-  font-family: "Azeret Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 100;
+/* Can't get the font right */
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
   font-style: normal;
 }
+
 .heading-description{
   font-weight: 16px;
   line-height: 26px;
@@ -63,12 +64,16 @@
   margin: 85px 150px;
   padding: 80px 97px;
   border-radius: 16px;
+  text-align: justify;
 }
+
 h5{
   font-weight: bold;
   font-size: 24px;
 }
-
+.layer-description{
+  padding-right: 2cqmax;
+}
 .layers{
   background-color: #FFFFFF;
   line-height: 26px;
@@ -149,10 +154,20 @@ text-align: justify;
   display: flex;
   justify-content: space-between;
 }
-.input-part{
+.feedback-input{
+  padding: 15px 200px 15px 10px;
+  border-radius: 8px;
+}
+input{
+  font-weight: 600;
+  font-size: 20px;
+  padding: 15px 20px;
+  border-radius: 8px;
+}
+/* .input-part{
   padding: 5px;
   border-radius: 5px;
-}
+} */
 /* footer styling */
 ul{
   display: flex;
